@@ -1,27 +1,29 @@
 research_task:
   description: >
-    Extract and analyze competitor ad data from the internet for the {industry} sector.
-    Identify patterns in ad creative, messaging, targeting strategies, and performance metrics.
-    Focus on ads published within the last {timeframe} days to capture current market trends.
+    Extract and analyze competitor ad data from digital platforms in {region} for the {industry} sector.
+    Focus on collecting ads from Facebook, Instagram, YouTube, and display networks within {region}.
+    Document ad creative, messaging, and placement patterns for ads published within the last {timeframe} days.
   expected_output: >
     A structured dataset and summary report containing:
-    - Top 10 competitors by ad volume and estimated spend
-    - Prevalent creative formats and messaging themes
-    - Emerging trends in visual elements and copy strategies
-    - Seasonal patterns in ad deployment
-    - Notable innovative approaches or outliers worth examining
+    - Top 10 competitors by ad volume in {region}
+    - Regional distribution of ads within {region} (cities/states where applicable)
+    - Most common creative formats used in {region}
+    - Predominant messaging themes specific to {region} audiences
+    - Platform-specific ad strategies (variations between social platforms)
+    - {Region}-specific seasonal or cultural elements in advertising
   agent: researcher
 
 reporting_task:
   description: >
-    Transform the competitive ad research data into actionable marketing strategy recommendations.
-    Analyze strengths and weaknesses in competitor approaches and identify opportunities for differentiation.
-    Create a comprehensive strategy framework that addresses creative direction, messaging, targeting, and timing.
+    Analyze competitor ad performance in {region} to identify regional patterns and preferences.
+    Compare advertising approaches across different areas within {region} to highlight geographic variations.
+    Develop insights specific to {region}'s market conditions and cultural context.
   expected_output: >
-    A detailed marketing strategy document that includes:
-    - Competitive landscape analysis with visual representations
-    - Strategic recommendations based on identified gaps and opportunities
-    - Creative direction guidance with specific examples
-    - Recommended messaging frameworks and targeting parameters
-    - Implementation timeline and performance benchmarks
+    A regional advertising intelligence report that includes:
+    - Competitive ad landscape in {region} with geographic heat maps
+    - Region-specific audience response patterns
+    - Local competitive dynamics and market leaders in {region}
+    - Cultural nuances affecting ad performance in {region}
+    - Recommendations for region-optimized creative and messaging approaches
+    - Performance benchmarks relevant to {region}'s market conditions
   agent: reporting_analyst

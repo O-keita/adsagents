@@ -16,6 +16,7 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 inputs = {
         'industry': 'roofing',
         'timeframe': 100,
+        'region': 'Gambia',
     }
 
 def run():
