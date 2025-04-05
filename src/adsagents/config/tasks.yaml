@@ -1,7 +1,7 @@
 research_task:
   description: >
     Extract and analyze competitor ad data from digital platforms in {region} for the {industry} sector.
-    Focus on collecting ads from Facebook, Instagram, YouTube, and display networks within {region}.
+    Focus on collecting internet, public pages and best ad practices and display networks within {region}.
     Document ad creative, messaging, and placement patterns for ads published within the last {timeframe} days.
   expected_output: >
     A structured dataset and summary report containing:
@@ -20,7 +20,6 @@ reporting_task:
     Develop insights specific to {region}'s market conditions and cultural context.
   expected_output: >
     A regional advertising intelligence report that includes:
-    - Competitive ad landscape in {region} with geographic heat maps
     - Region-specific audience response patterns
     - Local competitive dynamics and market leaders in {region}
     - Cultural nuances affecting ad performance in {region}
