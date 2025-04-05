@@ -1,0 +1,27 @@
+research_task:
+  description: >
+    Extract and analyze competitor ad data from the internet for the {industry} sector.
+    Identify patterns in ad creative, messaging, targeting strategies, and performance metrics.
+    Focus on ads published within the last {timeframe} days to capture current market trends.
+  expected_output: >
+    A structured dataset and summary report containing:
+    - Top 10 competitors by ad volume and estimated spend
+    - Prevalent creative formats and messaging themes
+    - Emerging trends in visual elements and copy strategies
+    - Seasonal patterns in ad deployment
+    - Notable innovative approaches or outliers worth examining
+  agent: researcher
+
+reporting_task:
+  description: >
+    Transform the competitive ad research data into actionable marketing strategy recommendations.
+    Analyze strengths and weaknesses in competitor approaches and identify opportunities for differentiation.
+    Create a comprehensive strategy framework that addresses creative direction, messaging, targeting, and timing.
+  expected_output: >
+    A detailed marketing strategy document that includes:
+    - Competitive landscape analysis with visual representations
+    - Strategic recommendations based on identified gaps and opportunities
+    - Creative direction guidance with specific examples
+    - Recommended messaging frameworks and targeting parameters
+    - Implementation timeline and performance benchmarks
+  agent: reporting_analyst

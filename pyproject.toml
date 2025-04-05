@@ -1,0 +1,26 @@
+[project]
+name = "adsagents"
+version = "0.1.0"
+description = "adsAgents using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "bs4>=0.0.2",
+    "crewai[tools]>=0.105.0,<1.0.0",
+    "requests-html>=0.10.0",
+    "tqdm>=4.67.1",
+]
+
+[project.scripts]
+adsagents = "adsagents.main:run"
+run_crew = "adsagents.main:run"
+train = "adsagents.main:train"
+replay = "adsagents.main:replay"
+test = "adsagents.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
