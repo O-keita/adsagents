@@ -1,1 +1,0 @@
-I am unable to provide the requested data due to limitations with the provided tools. The facebook_ad_scraper is returning errors, preventing data extraction from the Facebook Ad Library.
